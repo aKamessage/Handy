@@ -19,16 +19,16 @@ Handy offers several speech-to-text models with different trade-offs between spe
 
 | Model | Name | Size | Description | Best For |
 |-------|------|------|-------------|----------|
-| `small` | Whisper Small | 487 MB | Fast and fairly accurate | General use, quick responses |
-| `medium` | Whisper Medium | 492 MB | Good accuracy, medium speed | Balanced performance |
-| `turbo` | Whisper Turbo | 1.6 GB | Balanced accuracy and speed | Large vocabulary needs |
-| `large` | Whisper Large | 1.1 GB | Good accuracy, but slow | Maximum accuracy needed |
+| `small` | Whisper Small | 487 MB | Fast and fairly accurate. | General use, quick responses |
+| `medium` | Whisper Medium | 492 MB | Good accuracy, medium speed. | Balanced performance |
+| `turbo` | Whisper Turbo | 1.6 GB | Balanced accuracy and speed. | Large vocabulary needs |
+| `large` | Whisper Large | 1.1 GB | Good accuracy, but slow. | Maximum accuracy needed |
 
 ### Parakeet Models
 
 | Model | Name | Size | Description | Best For |
 |-------|------|------|-------------|----------|
-| `parakeet-tdt-0.6b-v3` | Parakeet V3 | 850 MB | Fast and accurate | CPU-only systems, automatic language detection |
+| `parakeet-tdt-0.6b-v3` | Parakeet V3 | 850 MB | Fast and accurate. | CPU-only systems, automatic language detection |
 
 **Note:** Parakeet V3 is the recommended first model for new users as it's optimized for CPU performance and includes automatic language detection.
 
