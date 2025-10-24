@@ -179,7 +179,7 @@ impl ModelManager {
 
     fn migrate_bundled_models(&self) -> Result<()> {
         // Check for bundled models and copy them to user directory
-        let bundled_models = ["ggml-small.bin"]; // Add other bundled models here if any
+        let bundled_models = ["ggml-small.bin", "ggml-large-v3-q5_0.bin"]; // Add other bundled models here if any
 
         for filename in &bundled_models {
             let bundled_path = self.app_handle.path().resolve(

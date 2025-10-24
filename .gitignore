@@ -26,3 +26,7 @@ dist-ssr
 /target/
 recording_*
 .crush/
+
+# Large bundled models (download via scripts/download-bundled-models.sh)
+src-tauri/resources/models/*.bin
+!src-tauri/resources/models/README.md

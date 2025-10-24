@@ -17,12 +17,12 @@ Handy offers several speech-to-text models with different trade-offs between spe
 
 ### Whisper Models
 
-| Model | Name | Size | Description | Best For |
-|-------|------|------|-------------|----------|
-| `small` | Whisper Small | 487 MB | Fast and fairly accurate. | General use, quick responses |
-| `medium` | Whisper Medium | 492 MB | Good accuracy, medium speed. | Balanced performance |
-| `turbo` | Whisper Turbo | 1.6 GB | Balanced accuracy and speed. | Large vocabulary needs |
-| `large` | Whisper Large | 1.1 GB | Good accuracy, but slow. | Maximum accuracy needed |
+| Model | Name | Size | Description | Best For | Availability |
+|-------|------|------|-------------|----------|--------------|
+| `small` | Whisper Small | 487 MB | Fast and fairly accurate. | General use, quick responses | Download on-demand |
+| `medium` | Whisper Medium | 492 MB | Good accuracy, medium speed. | Balanced performance | Download on-demand |
+| `turbo` | Whisper Turbo | 1.6 GB | Balanced accuracy and speed. | Large vocabulary needs | Download on-demand |
+| `large` | Whisper Large | 1.1 GB | Good accuracy, but slow. | Maximum accuracy needed | **Bundled with app** |
 
 ### Parakeet Models
 
@@ -30,7 +30,9 @@ Handy offers several speech-to-text models with different trade-offs between spe
 |-------|------|------|-------------|----------|
 | `parakeet-tdt-0.6b-v3` | Parakeet V3 | 850 MB | Fast and accurate. | CPU-only systems, automatic language detection |
 
-**Note:** Parakeet V3 is the recommended first model for new users as it's optimized for CPU performance and includes automatic language detection.
+**Note:** 
+- Parakeet V3 is recommended for new users as it's optimized for CPU performance and includes automatic language detection.
+- Whisper Large is **bundled with the application** and available immediately after installation without requiring a download.
 
 ## How Model Downloading Works
 
@@ -210,12 +212,12 @@ models/
 
 ### Bundled Models
 
-The app may include a bundled Whisper Small model in:
+The app includes the Whisper Large model bundled with the installer:
 ```
-resources/models/ggml-small.bin
+resources/models/ggml-large-v3-q5_0.bin (~1.1 GB)
 ```
 
-On first run, bundled models are automatically copied to the user directory if not already present.
+On first run, bundled models are automatically copied to the user directory if not already present. This means the Whisper Large model is immediately available without requiring an internet connection or additional downloads.
 
 ## Technical Details
 
