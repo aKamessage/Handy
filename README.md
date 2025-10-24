@@ -45,6 +45,10 @@ The process is entirely local:
 
 For detailed build instructions including platform-specific requirements, see [BUILD.md](BUILD.md).
 
+### Model Information
+
+For detailed information about downloading and using Whisper and Parakeet models, including troubleshooting, see [MODELS.md](MODELS.md).
+
 ## Architecture
 
 Handy is built as a Tauri application combining:
